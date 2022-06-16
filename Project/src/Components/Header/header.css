@@ -1,0 +1,48 @@
+/* header background-color: #3a3b3c */
+/* button text clor : #E0E0E0 */
+
+
+.header-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #3a3b3c;
+    height: 70px;
+    width: auto;
+
+}
+
+
+
+.main-part {
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.main-part button {
+    margin-right: 60px;
+}
+
+.second-part {
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.btn {
+    height: 60px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: orange;
+    color: #E0E0E0;
+    text-transform: uppercase;
+    cursor: pointer;
+  
+
+}
+
+#menu-bar{
+    text-transform: uppercase;
+    
+}

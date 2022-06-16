@@ -1,0 +1,18 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.cv-button{
+    height: 300px;
+    width: 500px;
+    background-image: url('../../Photos/cvph.png');
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    top: 200px;
+    left: 400px;
+    color: transparent;
+    cursor: pointer;
+}
