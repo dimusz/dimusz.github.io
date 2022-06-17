@@ -14,9 +14,9 @@ function Footer() {
 
 
     return ( 
-        <div class='footer-body'>
+        <div className='footer-body'>
             {isMobile?(<>{''}
-                <div class='mobile-footer'>
+                <div className='mobile-footer'>
                     <div><DateTime/></div>
                     <div>Copyright 2022</div>
                     <div>Developed by dimusz</div>
@@ -27,11 +27,11 @@ function Footer() {
             
             
             
-            (<><div class='main-part'>
+            (<><div className='main-part'>
                 <p><DateTime/></p>
                 <p>Copyright 2022</p>
-            </div><div class='second-part'>
-                <p>Developed by dimusz</p>
+            </div><div className='second-part'>
+                <p>Developed by <a href="https://github.com/dimusz"> dimusz</a></p>
             </div></>)}
             
             

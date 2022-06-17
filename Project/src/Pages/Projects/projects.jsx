@@ -6,12 +6,12 @@ function Projects() {
     return (
 
 
-        <div class='main'>
+        <div className='main'>
             <div>
                 <nav>
                     <ul>
                     <li>
-                        <a href="https://github.com/dimusz/SIIT_Lucian_DinaMuszuriak/tree/main/02%20week"  target="_blank" rel="noreferrer"><button> Blog vacanta</button></a>
+                        <a href="https://github.com/dimusz/SIIT_Lucian_DinaMuszuriak/tree/main/02%20week" target="_blank" rel="noreferrer"><button> Blog vacanta</button></a>
                     </li>
                     <li>
                         <a href="https://github.com/dimusz/SIIT_Lucian_DinaMuszuriak/tree/main/week5extra" target="_blank" rel="noreferrer"><button>BMI project</button> </a>

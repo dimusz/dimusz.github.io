@@ -1,5 +1,5 @@
 .main {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: url('../../Photos/background.jpg');
     background-position: center;
@@ -7,5 +7,14 @@
 }
 
 h1, h3{
+    position:relative;
+    right: 350px;
+    bottom: 200px;
     color:whitesmoke
+}
+
+img {
+    position: relative;
+    right: 350px;
+    bottom: 200px;
 }

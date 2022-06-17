@@ -84,7 +84,7 @@ function Header() {
 
     return (
 
-        <div class='header-body'>
+        <div className='header-body'>
             {isMobile ?
                 (<>{''} <IconButton
                     size="large"
@@ -112,21 +112,21 @@ function Header() {
 
                     </Menu>{''}</>)
                 :
-                (<>  <div class="main-part">
+                (<>  <div className="main-part">
                     {buttons.map((buttonApp) => {
 
                         const { description, path } = buttonApp;
                         return (
-                            <Button class='btn'
+                            <Button className='btn'
                                 onClick={() => navigate(path)}>{description}</Button>);
                     })}</div></>)
             }
 
 
 
+            {/* aici voi pune butonul pentru comutare limba site */}
 
-
-            <div class="second-part">
+            {/* <div className="second-part">
                 <IconButton
                     size="large"
                     edge="start"
@@ -138,7 +138,7 @@ function Header() {
                     <LanguageIcon />
                 </IconButton>
 
-            </div>
+            </div> */}
 
 
         </div>)

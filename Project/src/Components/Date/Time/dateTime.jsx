@@ -2,8 +2,8 @@ import * as React from 'react'
 
 let DateTime = () => {
     let showDate = new Date();
-    let showTodayDate = showDate.getDay() + '/' + showDate.getMonth() + '/' + showDate.getFullYear();
-    let showTime = showDate.getHours() + ':' + showDate.getMinutes() + ':' + showDate.getSeconds();
+    let showTodayDate = showDate.toLocaleDateString();
+    let showTime = showDate.toLocaleTimeString();
 
     return (
         <div>

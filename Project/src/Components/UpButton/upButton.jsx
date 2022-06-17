@@ -4,7 +4,7 @@ import './upButton.css'
 function UpButton() {
     return (
         <div>
-            <a href="#" class="top">  &#8593;</a>
+            <a href="#" className="top">  &#8593;</a>
         </div>
     )
 }
