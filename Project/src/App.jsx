@@ -3,13 +3,11 @@ import './App.css'
 import Final from './final'
 
 function App() {
- 
 
   return (
-
-<div>
-<Final/>
-</div>
+    <div>
+      <Final />
+    </div>
   )
 }
 

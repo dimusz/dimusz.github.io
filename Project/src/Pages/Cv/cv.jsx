@@ -14,16 +14,19 @@ function Cv() {
 
     return (
         <div className='main'>
-            {isMobile ?(<>{''} <div>
-              
-              <a href={cv} download="cv.pdf"><button className='cv-button-mobile'>Download</button>  </a>
-          </div>
-          <div><UpButton /></div>{''}</>):(<><div>
-              
-              <a href={cv} download="cv.pdf"><button className='cv-button'>Download</button>  </a>
-          </div>
-          <div><UpButton /></div></>)}
-            
+            {isMobile ?
+                (<>{''} <div>
+
+                    <a href={cv} download="cv.pdf"><button className='cv-button-mobile'>Download</button>  </a>
+                </div>
+                    <div><UpButton /></div>{''}</>)
+                :
+                (<><div>
+
+                    <a href={cv} download="cv.pdf"><button className='cv-button'>Download</button>  </a>
+                </div>
+                    <div><UpButton /></div></>)}
+
         </div>
     )
 }

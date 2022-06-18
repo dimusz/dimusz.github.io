@@ -9,7 +9,7 @@ function Projects() {
         <div className='main'>
             <div>
                 <nav>
-                    <ul>
+                    <ul> 
                     <li>
                         <a href="https://github.com/dimusz/SIIT_Lucian_DinaMuszuriak/tree/main/02%20week" target="_blank" rel="noreferrer"><button> Blog vacanta</button></a>
                     </li>
