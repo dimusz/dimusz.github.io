@@ -9,7 +9,7 @@ function Cv() {
     const theme = useTheme()
     const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
     return (
-        <div className='main'>{isMobile ? <CvMobile /> : <CvDesktop />} </div>
+        <div id='main'>{isMobile ? <CvMobile /> : <CvDesktop />} </div>
     )
 }
 export default Cv

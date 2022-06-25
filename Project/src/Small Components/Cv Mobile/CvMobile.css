@@ -4,18 +4,16 @@
     background-image: url('../../Photos/background.jpg');
     background-position: center;
     background-size: cover;
+    padding-top: 50px;
 }
 #cv-text-mobile {
-    display: flex;
-    flex-direction: column;
-    margin-left:10px;
+    margin-left: 10px;
     margin-right: 10px;
-    margin-top: 100px;
     border: 1px solid white;
     border-radius: 10px;
-    padding-left: 70px;
+    padding-left: 50px;
     width: fit-content;
-    padding-right: 70px;
+    padding-right: 50px;
     font-size: 10px;
 }
 
@@ -26,7 +24,7 @@
     background-position: center;
     background-size: contain;
     position: absolute;
-    bottom: 150px;
+    top: 620px;
     right: 25%;
     color: transparent;
     cursor: pointer;
