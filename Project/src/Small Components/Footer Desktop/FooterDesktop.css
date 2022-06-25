@@ -1,7 +1,6 @@
 
-
-.footer-body {
-    position: static;
+#footer-body {
+    position: sticky;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,29 +10,26 @@
     width: 100%;
 }
 
-.main-part{
+
+
+#main-part{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 50px;
 }
 
-.second-part{
+#second-part{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-right: 50px;
 }
 
-.main-part p {
+#main-part p {
     margin-right: 100px;
 }
-
-.mobile-footer{
-    position: sticky;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   align-items: center;
-    background-color:#3a3b3c;
-    height: 100px;
-    width: 100%;
+#footer-link{
+    text-decoration: none;
+    color: #E0E0E0;
 }

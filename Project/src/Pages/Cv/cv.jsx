@@ -1,34 +1,15 @@
 import React from 'react'
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
-
-import cv from '../../Photos/cv.pdf'
-import UpButton from '../../Components/UpButton/upButton'
 import './cv.css'
-
+import CvDesktop from '../../Small Components/Cv Desktop/CvDesktop';
+import CvMobile from '../../Small Components/Cv Mobile/CvMobile';
 
 function Cv() {
     const theme = useTheme()
     const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
-
-
     return (
-        <div className='main'>
-            {isMobile ?
-                (<>{''} <div>
-
-                    <a href={cv} download="cv.pdf"><button className='cv-button-mobile'>Download</button>  </a>
-                </div>
-                    <div><UpButton /></div>{''}</>)
-                :
-                (<><div>
-
-                    <a href={cv} download="cv.pdf"><button className='cv-button'>Download</button>  </a>
-                </div>
-                    <div><UpButton /></div></>)}
-
-        </div>
+        <div className='main'>{isMobile ? <CvMobile /> : <CvDesktop />} </div>
     )
 }
-
 export default Cv

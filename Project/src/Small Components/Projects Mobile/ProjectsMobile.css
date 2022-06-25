@@ -1,0 +1,22 @@
+#main-project{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/src/Photos/background.jpg);
+    background-position: center;
+    background-size: cover;   
+}
+
+#project-col{
+    margin-top: 30px;
+    border: solid 1px #E0E0E0;
+    border-radius: 10px;
+}
+
+#grid-anchor{
+    text-decoration: none;
+    color: #E0E0E0;
+    font-size: 20px;
+}

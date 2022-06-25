@@ -1,0 +1,40 @@
+#main-cv {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../Photos/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#cv-button {
+    height: 100px;
+    width: 200px;
+    background-image: url('../../Photos/cvph.png');
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    left: 75%;
+
+    color: transparent;
+    cursor: pointer;
+}
+
+#cv-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 70px;
+    width: fit-content;
+    padding-right: 70px;
+}
+
+#cv-h1 {
+    color: white;
+}
+
+#cv-h2 {
+    color: white;
+}

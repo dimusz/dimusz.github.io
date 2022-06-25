@@ -1,0 +1,29 @@
+#main-home {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../Photos/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#main-text{
+    position: relative;
+    left: 500px;
+    top: 400px;
+}
+#home-h1{
+    position:relative;
+    right: 350px;
+    bottom: 200px;
+    color:whitesmoke
+}
+#home-h3{
+    position:relative;
+    right: 350px;
+    bottom: 200px;
+    color:whitesmoke
+}
+#home-img {
+    position: relative;
+    left: 680px;
+    bottom: 170px;
+}

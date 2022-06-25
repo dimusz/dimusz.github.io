@@ -9,29 +9,7 @@
     
 }
 
-.cv-button{
-    height: 300px;
-    width: 500px;
-    background-image: url('../../Photos/cvph.png');
-    background-position: center;
-    background-size: contain;
-    position: relative;
-    bottom: 100px;
-    right: 200px;
-    color: transparent;
-    cursor: pointer;
-}
 
-.cv-button-mobile{
-    height: 100px;
-    width: 200px;
-    background-image: url('../../Photos/cvph.png');
-    background-position: center;
-    background-size: contain;
-    position: relative;
-    bottom: 70px;
-    right: 40px;
-    color: transparent;
-    cursor: pointer;
-}
+
+
 
